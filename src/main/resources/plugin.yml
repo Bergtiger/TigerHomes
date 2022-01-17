@@ -1,0 +1,30 @@
+main: de.bergtiger.tigerhomes.TigerHomes
+name: TigerHomes
+version: ${minecraft.plugin.version}
+api-version: 1.17
+author: Bergtiger
+softdepend:
+  - TigerList
+  - WorldEdit
+
+commands:
+  home:
+    description: Teleport to your home.
+  homes:
+    description: Shows all your homes.
+  homeset:
+    aliases:
+      - sethome
+    description: Set a home at your current location.
+  homedel:
+    description: Deletes your home.
+    aliases:
+      - delhome
+  homeinfo:
+    description: Shows your home.
+  homehelp:
+    description: Shows all commands.
+  homesearch:
+    description: Searches for homes in given area.
+  tigerhomes:
+    description: Plugin commands.
